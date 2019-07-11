@@ -1,0 +1,196 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "df052970ef",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-e6a9"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-lbs0Re",
+        "builtin/removeContext {\"contexts\":\"monkeys,giraffes\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "dd56915d48",
+      "name": "node-e6a9",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-948400"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-cnPRaj"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "skill-948400",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-948400",
+      "flow": "skills/choice-948400.flow.json",
+      "next": [
+        {
+          "caption": "User picked [phone]",
+          "condition": "temp['skill-choice-ret'] == \"phone\"",
+          "node": "node-4ba8"
+        },
+        {
+          "caption": "User picked [email]",
+          "condition": "temp['skill-choice-ret'] == \"email\"",
+          "node": "node-95a3"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "4f67fe494b",
+      "name": "node-4ba8",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-d2081c"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-u_lbLI"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "1d39c00866",
+      "name": "node-95a3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-2efc"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1GMnUG"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "skill-d2081c",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-d2081c",
+      "flow": "skills/choice-d2081c.flow.json",
+      "next": [
+        {
+          "caption": "User picked [monday]",
+          "condition": "temp['skill-choice-ret'] == \"monday\"",
+          "node": "choice-09aa45"
+        },
+        {
+          "caption": "User picked [tuesday]",
+          "condition": "temp['skill-choice-ret'] == \"tuesday\"",
+          "node": "choice-09aa45"
+        },
+        {
+          "caption": "User picked [wednesd...]",
+          "condition": "temp['skill-choice-ret'] == \"wednesday\"",
+          "node": "choice-09aa45"
+        },
+        {
+          "caption": "User picked [thursday]",
+          "condition": "temp['skill-choice-ret'] == \"thursday\"",
+          "node": "choice-09aa45"
+        },
+        {
+          "caption": "User picked [friday]",
+          "condition": "temp['skill-choice-ret'] == \"friday\"",
+          "node": "choice-09aa45"
+        },
+        {
+          "caption": "User picked [saturday]",
+          "condition": "temp['skill-choice-ret'] == \"saturday\"",
+          "node": "choice-09aa45"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "586b4b3419",
+      "name": "node-2efc",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-kExvcy"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-09aa45",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-09aa45",
+      "flow": "skills/choice-09aa45.flow.json",
+      "next": [
+        {
+          "caption": "User picked [10-11]",
+          "condition": "temp['skill-choice-ret'] == \"10-11\"",
+          "node": "node-2efc"
+        },
+        {
+          "caption": "User picked [11-12]",
+          "condition": "temp['skill-choice-ret'] == \"11-12\"",
+          "node": "node-2efc"
+        },
+        {
+          "caption": "User picked [12-1]",
+          "condition": "temp['skill-choice-ret'] == \"12-1\"",
+          "node": "node-2efc"
+        },
+        {
+          "caption": "User picked [1-2]",
+          "condition": "temp['skill-choice-ret'] == \"1-2\"",
+          "node": "node-2efc"
+        },
+        {
+          "caption": "User picked [2-3]",
+          "condition": "temp['skill-choice-ret'] == \"2-3\"",
+          "node": "node-2efc"
+        },
+        {
+          "caption": "User picked [3-4]",
+          "condition": "temp['skill-choice-ret'] == \"3-4\"",
+          "node": "node-2efc"
+        },
+        {
+          "caption": "User picked [4-5]",
+          "condition": "temp['skill-choice-ret'] == \"4-5\"",
+          "node": "node-2efc"
+        },
+        {
+          "caption": "User picked [5-6]",
+          "condition": "temp['skill-choice-ret'] == \"5-6\"",
+          "node": "node-2efc"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "node-2efc"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

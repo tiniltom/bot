@@ -1,0 +1,12 @@
+{
+  "name": "__qna__4ik4z504yh_enter_status",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "enter status"
+    ]
+  },
+  "slots": []
+}

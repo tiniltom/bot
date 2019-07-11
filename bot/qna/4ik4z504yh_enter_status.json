@@ -1,0 +1,21 @@
+{
+  "id": "4ik4z504yh_enter_status",
+  "data": {
+    "answers": {
+      "en": [
+        "1",
+        "2"
+      ]
+    },
+    "questions": {
+      "en": [
+        "enter status"
+      ]
+    },
+    "redirectFlow": "contexts.flow.json",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

@@ -1,0 +1,394 @@
+[
+  {
+    "id": "builtin_text-pSsHWg",
+    "formData": {
+      "text$en": "👋, {{user.nickname}}!",
+      "variations$en": [
+        "Hello, {{user.nickname}}!",
+        "Welcome to Botpress, {{user.nickname}}!"
+      ],
+      "typing$en": true,
+      "text$undefined": "👋, {{user.nickname}}!",
+      "variations$undefined": [
+        "Hello, {{user.nickname}}!",
+        "Welcome to Botpress, {{user.nickname}}!"
+      ],
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:57:36.026Z",
+    "modifiedOn": "2019-07-11T07:57:09.366Z"
+  },
+  {
+    "id": "builtin_text-AY5SSW",
+    "formData": {
+      "text$en": "This is the first time we speak 🤖",
+      "typing$en": true,
+      "text$undefined": "This is the first time we speak 🤖",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:59:51.118Z",
+    "modifiedOn": "2019-07-11T07:57:09.379Z"
+  },
+  {
+    "id": "builtin_text-bFsOmf",
+    "formData": {
+      "text$en": "We already spoke {{temp.$r}} times!",
+      "typing$en": true,
+      "text$undefined": "We already spoke {{temp.$r}} times!",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:00:37.593Z",
+    "modifiedOn": "2019-07-11T07:57:09.393Z"
+  },
+  {
+    "id": "builtin_text-TtzrCV",
+    "formData": {
+      "text$en": "Alright, I have forgotten your name.",
+      "typing$en": true,
+      "text$undefined": "Alright, I have forgotten your name.",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:06:41.963Z",
+    "modifiedOn": "2019-07-11T07:57:09.404Z"
+  },
+  {
+    "id": "builtin_text-z0J9qh",
+    "formData": {
+      "text$en": "May I know your name please?",
+      "typing$en": true,
+      "text$undefined": "May I know your name please?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:08:41.241Z",
+    "modifiedOn": "2019-07-11T07:57:09.415Z"
+  },
+  {
+    "id": "builtin_text-X069Le",
+    "formData": {
+      "text$en": "Try saying something like \"forget my name\"!",
+      "typing$en": true,
+      "text$undefined": "Try saying something like \"forget my name\"!",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:16:53.227Z",
+    "modifiedOn": "2019-07-11T07:57:09.427Z"
+  },
+  {
+    "id": "builtin_text-kKQ8C3",
+    "formData": {
+      "text$en": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
+      "typing$en": true,
+      "text$undefined": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:17:55.317Z",
+    "modifiedOn": "2019-07-11T07:57:09.441Z"
+  },
+  {
+    "id": "builtin_text-lbs0Re",
+    "formData": {
+      "text$en": "Hi, I'm Welcome Bot",
+      "typing$en": true,
+      "text$undefined": "Hi, I'm Welcome Bot",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-25T16:41:48.068Z",
+    "modifiedOn": "2019-07-11T07:57:09.456Z"
+  },
+  {
+    "id": "builtin_text-sRxAPP",
+    "formData": {
+      "text$en": "Bot Memory is used by the bot to store information about a conversation. Here's an example.",
+      "typing$en": true,
+      "text$undefined": "Bot Memory is used by the bot to store information about a conversation. Here's an example.",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-25T16:55:01.413Z",
+    "modifiedOn": "2019-07-11T07:57:09.469Z"
+  },
+  {
+    "id": "builtin_text-6RY1f5",
+    "formData": {
+      "text$en": "A bot could ask questions that are similar but have different meanings. To differentiate between the meanings of these questions, we use Contexts.",
+      "typing$en": true,
+      "text$undefined": "A bot could ask questions that are similar but have different meanings. To differentiate between the meanings of these questions, we use Contexts.",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-25T17:02:32.795Z",
+    "modifiedOn": "2019-07-11T07:57:09.481Z"
+  },
+  {
+    "id": "builtin_text-UP2ozm",
+    "formData": {
+      "text$en": "Please pick an animal from the choices, I'm not a Zoologist.",
+      "typing$en": true,
+      "text$undefined": "Please pick an animal from the choices, I'm not a Zoologist.",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-25T18:05:07.711Z",
+    "modifiedOn": "2019-07-11T07:57:09.494Z"
+  },
+  {
+    "id": "builtin_text-lALv5x",
+    "formData": {
+      "text$en": "Please ask questions about that animal, like its life span or its habitat.",
+      "typing$en": true,
+      "text$undefined": "Please ask questions about that animal, like its life span or its habitat.",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-25T18:14:48.625Z",
+    "modifiedOn": "2019-07-11T07:57:09.506Z"
+  },
+  {
+    "id": "builtin_text-bOU5xw",
+    "formData": {
+      "text$en": "Please refer to our [documentation](https://botpress.io/docs/build/memory) to learn more about Bot Memory.",
+      "typing$en": true,
+      "text$undefined": "Please refer to our [documentation](https://botpress.io/docs/build/memory) to learn more about Bot Memory.",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-25T18:29:05.998Z",
+    "modifiedOn": "2019-07-11T07:57:09.518Z"
+  },
+  {
+    "id": "builtin_text-SKQxXN",
+    "formData": {
+      "text$en": "Ask me something thats included in the choices. Let's try again.",
+      "typing$en": true,
+      "text$undefined": "Ask me something thats included in the choices. Let's try again.",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-25T18:40:32.874Z",
+    "modifiedOn": "2019-07-11T07:57:09.530Z"
+  },
+  {
+    "id": "builtin_text-T8Oa8M",
+    "formData": {
+      "text$en": "To learn more about how to setup a Contextual FAQ, please refer to our [tutorial](https://botpress.io/docs/tutorials/contextual-faq)",
+      "typing$en": true,
+      "text$undefined": "To learn more about how to setup a Contextual FAQ, please refer to our [tutorial](https://botpress.io/docs/tutorials/contextual-faq)",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-25T19:53:14.411Z",
+    "modifiedOn": "2019-07-11T07:57:09.544Z"
+  },
+  {
+    "id": "builtin_text-yFOIFD",
+    "formData": {
+      "text$en": "Tell me if you need help!",
+      "typing$en": true,
+      "text$undefined": "Tell me if you need help!",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-25T22:02:33.058Z",
+    "modifiedOn": "2019-07-11T07:57:09.556Z"
+  },
+  {
+    "id": "builtin_text-cnPRaj",
+    "formData": {
+      "text$en": "Enter your name",
+      "typing$en": true,
+      "text$undefined": "Enter your name",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T05:53:34.455Z",
+    "modifiedOn": "2019-07-11T07:57:09.567Z"
+  },
+  {
+    "id": "builtin_text-XeU4ky",
+    "formData": {
+      "text$en": "How to contact you",
+      "typing$en": true,
+      "text$undefined": "How to contact you",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T05:56:42.888Z",
+    "modifiedOn": "2019-07-11T07:57:09.577Z"
+  },
+  {
+    "id": "builtin_text-cRd0Uh",
+    "formData": {
+      "text$en": "phone number",
+      "typing$en": true,
+      "text$undefined": "phone number",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:00:11.754Z",
+    "modifiedOn": "2019-07-11T07:57:09.589Z"
+  },
+  {
+    "id": "builtin_text-qM8qFw",
+    "formData": {
+      "text$en": "email",
+      "typing$en": true,
+      "text$undefined": "email",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:00:37.882Z",
+    "modifiedOn": "2019-07-11T07:57:09.599Z"
+  },
+  {
+    "id": "builtin_text-HnWhaq",
+    "formData": {
+      "text$en": "Enter a valid choice",
+      "typing$en": true,
+      "text$undefined": "Enter a valid choice",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:13:34.602Z",
+    "modifiedOn": "2019-07-11T07:57:09.609Z"
+  },
+  {
+    "id": "builtin_text-u_lbLI",
+    "formData": {
+      "text$en": "Enter your phone number",
+      "typing$en": true,
+      "text$undefined": "Enter your phone number",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:21:15.214Z",
+    "modifiedOn": "2019-07-11T07:57:09.619Z"
+  },
+  {
+    "id": "builtin_text-M_LCiT",
+    "formData": {
+      "text$en": "Enter your email id ",
+      "typing$en": true,
+      "text$undefined": "Enter your email id ",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:22:45.728Z",
+    "modifiedOn": "2019-07-11T07:57:09.631Z"
+  },
+  {
+    "id": "builtin_text-dBPs7g",
+    "formData": {
+      "text$en": "Who are you",
+      "typing$en": true,
+      "text$undefined": "Who are you",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T07:06:02.572Z",
+    "modifiedOn": "2019-07-11T07:57:09.641Z"
+  },
+  {
+    "id": "builtin_text-UwRWe0",
+    "formData": {
+      "text$en": "Sign in to your account",
+      "typing$en": true,
+      "text$undefined": "Sign in to your account",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T07:10:09.588Z",
+    "modifiedOn": "2019-07-11T07:57:09.652Z"
+  },
+  {
+    "id": "builtin_text-78UL5e",
+    "formData": {
+      "text$en": "validateEmail ",
+      "typing$en": true,
+      "text$undefined": "validateEmail ",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T07:53:05.538Z",
+    "modifiedOn": "2019-07-11T07:57:09.662Z"
+  },
+  {
+    "id": "builtin_text-9Eqvc5",
+    "formData": {
+      "text$en": "Whats your email?",
+      "typing$en": true,
+      "text$undefined": "Whats your email?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T08:42:49.103Z",
+    "modifiedOn": "2019-07-11T07:57:09.676Z"
+  },
+  {
+    "id": "builtin_text-TCLU97",
+    "formData": {
+      "text$en": "please enter a valid email address",
+      "typing$en": true,
+      "text$undefined": "please enter a valid email address",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T08:50:43.580Z",
+    "modifiedOn": "2019-07-11T07:57:09.686Z"
+  },
+  {
+    "id": "builtin_text-LGDbXb",
+    "formData": {
+      "text$en": "Email id entered",
+      "typing$en": true,
+      "text$undefined": "Email id entered",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T08:52:34.054Z",
+    "modifiedOn": "2019-07-11T07:57:09.696Z"
+  },
+  {
+    "id": "builtin_text-1GMnUG",
+    "formData": {
+      "text$en": "Please enter your email",
+      "typing$en": true,
+      "text$undefined": "Please enter your email",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T09:25:56.992Z",
+    "modifiedOn": "2019-07-11T07:57:09.710Z"
+  },
+  {
+    "id": "builtin_text-qIOJiJ",
+    "formData": {
+      "text$en": "Email id is stored",
+      "typing$en": true,
+      "text$undefined": "Email id is stored",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T09:30:10.288Z",
+    "modifiedOn": "2019-07-11T07:57:09.724Z"
+  },
+  {
+    "id": "builtin_text-kExvcy",
+    "formData": {
+      "text$en": "Thank You, Your preferences are recorded",
+      "typing$en": true,
+      "text$undefined": "Thank You, Your preferences are recorded",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T10:40:29.078Z",
+    "modifiedOn": "2019-07-11T07:57:09.734Z"
+  }
+]
